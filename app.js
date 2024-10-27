@@ -206,7 +206,7 @@ function addToCart(index) {
     phones[index].quantity = 1;
     cartItems.push(phones[index]);
   } else {
-    cartItems[checkIndex].quantity += 1;
+    cartItems[checkIndex].quantity++;
   }
   console.log(cartItems);
   Swal.fire({
